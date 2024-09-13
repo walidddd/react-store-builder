@@ -1,0 +1,12 @@
+.primary-aux-sidebar {
+  grid-area: primary-aux-sidebar;
+  width: $primary-aux-sidebar-width;
+
+  .main-menu {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+}

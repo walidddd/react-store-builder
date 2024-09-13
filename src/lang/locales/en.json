@@ -1,0 +1,10 @@
+{
+  "menuTitles": {
+    "apps": "Apps",
+    "settings": "Settings",
+    "template": "Template"
+  },
+  "buttons": {
+    "save": "Save"
+  }
+}

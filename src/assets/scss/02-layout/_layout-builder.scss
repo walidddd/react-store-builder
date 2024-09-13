@@ -1,0 +1,29 @@
+.Layout-Global {
+  // Start make grid layout
+  display: grid;
+  grid-template-areas:
+    'header header header header'
+    'primary-aux-sidebar control-sidebar main customize-slider'
+    'primary-aux-sidebar control-sidebar children customize-slider'
+    'footer footer footer footer';
+  height: 100vh;
+  grid-template-columns: minmax(0, auto) minmax(0, auto) 1fr minmax(0, auto);
+  grid-template-rows: auto 1fr auto auto;
+  justify-items: center;
+  &.full-screen {
+    .template-content {
+      width: 100vw;
+    }
+    .layout-sidebar {
+      display: none;
+    }
+    .primary-aux-sidebar {
+      display: none;
+    }
+  }
+  &.sm {
+    .template-content {
+      width: 600px;
+    }
+  }
+}

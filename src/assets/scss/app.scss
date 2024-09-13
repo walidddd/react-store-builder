@@ -1,0 +1,159 @@
+@import 'primereact/resources/primereact.min.css';
+@import 'primereact/resources/themes/saga-blue/theme.css';
+
+@import 'primeicons/primeicons.css';
+
+@import './01-config/_variables';
+@import './02-layout/_layout-builder';
+@import './02-layout/layout-sidebar';
+@import './03-globals/_content';
+@import './03-globals/_header';
+@import './03-globals/control-sidebar';
+@import './03-globals/customize-slider';
+@import './03-globals/primary-aux-sidebar';
+
+// Ui Components
+@import './04-utils/ui';
+@import './04-utils/magic-tools';
+
+// Tallwind
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+// PrimeReact
+body {
+  background-color: $body-background;
+  margin: 0;
+  padding: 0;
+  font-family: $font-family-global;
+  line-height: 1;
+  color: $p-color-text;
+  max-width: 100%;
+  box-sizing: border-box;
+  max-height: 100vh;
+}
+
+.template-content {
+  overflow: auto;
+  padding: 8px 6px;
+}
+//
+
+// html,
+// body,
+// div {
+//   margin: 0;
+//   padding: 0;
+// }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label {
+  margin: 0;
+  padding: 0;
+  color: $p-color-text;
+}
+h1,
+h2 {
+  font-size: map-get($text-heading-sizes, md);
+  font-weight: 500;
+}
+h3 {
+  font-size: $p-font-size-350;
+  font-weight: 650;
+}
+svg {
+  color: inherit;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  font-family: $font-family-global;
+}
+
+span {
+  font-size: $p-font-size-325;
+  font-weight: 650;
+  font-family: $font-family-global;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.button-none-default {
+  background-color: #fff;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.overflow-auto {
+  overflow: auto;
+  height: 100%;
+}
+/* Define custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+/* Track styles */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the track */
+}
+
+/* Handle styles */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar handle */
+}
+
+/* Handle hover styles */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the scrollbar handle on hover */
+}
+
+.main-border-top {
+  border: {
+    top: 1px solid $p-color-border;
+  }
+}
+.main-border-bottom {
+  border: {
+    bottom: 1px solid $p-color-border;
+  }
+}
+.main-border {
+  border: 1px solid $p-color-border;
+}
+
+.main-border {
+  border: {
+    left: 1px solid $p-color-border;
+  }
+}
+
+.main-border {
+  border: {
+    right: 1px solid $p-color-border;
+  }
+}
+
+// Prime Edits
+.p-confirm-popup {
+  box-shadow: 0px 3px 6px 1px #3b3b3b08;
+}

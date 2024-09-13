@@ -1,0 +1,12 @@
+.control-sidebar {
+  grid-area: control-sidebar;
+  width: $control-sidebar-width;
+  border-right: $p-border-width-025 solid $p-color-border-secondary;
+  .title-section {
+    padding: 11px 10px 16px 10px;
+    border-bottom: 1px solid $p-color-border-secondary;
+  }
+  .accordion:first-child {
+    border-top: 0;
+  }
+}

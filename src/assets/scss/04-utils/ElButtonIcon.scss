@@ -1,0 +1,21 @@
+@import '../01-config/_variables';
+
+.button-icon {
+  padding: 7px;
+  border-radius: 5px;
+  border: none;
+  height: 36px;
+  width: 37px;
+  transition: 0.3s;
+  &.active {
+    background-color: #00000014;
+    color: #005bd3;
+  }
+  &:hover {
+    background-color: $gray-300;
+  }
+  cursor: pointer;
+  .label-button-icon {
+    display: none;
+  }
+}

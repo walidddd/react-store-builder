@@ -1,0 +1,29 @@
+.template-content {
+  width: calc(100vw - 39.9rem);
+  padding: 8px;
+  transition: 0.4s width;
+  display: flex;
+  &.animate-drag {
+    .template {
+      transform: scale(0.5);
+      height: 200%;
+      max-height: 200%;
+      align-self: center;
+      flex: 1 1 auto;
+    }
+  }
+  .template {
+    height: 100%;
+    border-radius: 8px;
+    flex: 1 1;
+    transition: 0.2s;
+
+    img {
+      width: 100%;
+    }
+    iframe {
+      border-radius: 9px;
+      border: none;
+    }
+  }
+}

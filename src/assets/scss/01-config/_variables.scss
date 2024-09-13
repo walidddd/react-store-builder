@@ -1,0 +1,129 @@
+// Colors
+$blue: #025ca1;
+$blue-100: #cfe2ff;
+$blue-900: #031633;
+
+$red: #c32c27;
+$red-100: #f8d7da;
+$red-900: #2c0b0e;
+
+$green: #19752e;
+$green-100: #d1e7dd;
+$green-900: #051b11;
+
+$cyan: #0e798a;
+$cyan-100: #cff4fc;
+$cyan-900: #032830;
+
+$white: #fff;
+$black: #000;
+
+$yellow: #ffc107;
+$yellow-100: #fff3cd;
+$yellow-900: #332701;
+
+$gray-100: #f8f9fa;
+$gray-200: #e9e9e9;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #616971;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+
+$p-border-width-0165: 0.04125rem;
+$p-border-width-025: 0.0625rem;
+$p-border-width-050: 0.125rem;
+$p-border-width-100: 0.25rem;
+
+$p-color-border: #e3e3e3;
+$p-color-border-hover: #ccc;
+$p-color-border-disabled: #ebebeb;
+$p-color-border-secondary: #ebebeb;
+$p-color-icon: #4a4a4a;
+$p-color-text: #303030;
+
+$p-color-text-secondary: #616161;
+$p-color-text-disabled: #b5b5b5;
+$p-color-text-link: #005bd3;
+$p-color-text-link-hover: #004299;
+$p-color-text-link-active: #002e6a;
+
+$p-font-size-275: 0.6875rem;
+$p-font-size-300: 0.75rem;
+$p-font-size-325: 0.8125rem;
+$p-font-size-350: 0.9rem;
+$p-font-size-400: 1rem;
+$p-font-size-500: 1.25rem;
+$p-font-size-600: 1.5rem;
+$p-font-size-750: 1.875rem;
+$p-font-size-900: 2.25rem;
+$p-font-size-1000: 2.5rem;
+$p-shadow-0: none;
+$p-shadow-100: 0rem 0.0625rem 0rem 0rem #1a1a1a12;
+$p-shadow-200: 0rem 0.1875rem 0.0625rem -0.0625rem #1a1a1a12;
+$p-shadow-300: 0rem 0.25rem 0.375rem -0.125rem #1a1a1a33;
+$p-shadow-400: 0rem 0.5rem 1rem -0.25rem #1a1a1a38;
+$p-shadow-500: 0rem 0.75rem 1.25rem -0.5rem #1a1a1a3d;
+$p-shadow-600: 0rem 1.25rem 1.25rem -0.5rem #1a1a1a47;
+
+$body-background: #f1f1f1;
+
+// This variable affects the `.h-*` and `.w-*` classes.
+$sizes: () !default;
+
+// style lint-disable-next-line scss/dollar-variable-default
+$sizes: map-merge(
+  (
+    5: 5%,
+    10: 10%,
+    15: 15%,
+    25: 25%,
+    50: 50%,
+    75: 75%,
+    100: 100%,
+    auto: auto,
+  ),
+  $sizes
+);
+
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1040px,
+) !default;
+
+// Define your font size variables
+$font-size-sm: 14px;
+$font-size-md: 16px;
+$font-size-lg: 18px;
+$font-size-xl: 20px;
+
+// Define your SCSS map for headings
+$text-heading-sizes: (
+  sm: $font-size-sm,
+  md: $font-size-md,
+  lg: $font-size-lg,
+  xl: $font-size-xl,
+);
+
+// font family
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+$font-family-global: 'Source Sans 3', sans-serif;
+
+// Header
+$header-height: 56px;
+
+// Control sidebar
+$control-sidebar-width: 18rem;
+
+// Customizab sidebar
+$customize-slider-width: 18.5rem;
+
+// Primary sidebar
+$primary-aux-sidebar-width: 3.4rem;
