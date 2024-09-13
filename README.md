@@ -2,7 +2,8 @@
 
 ## Overview
 
-**eCommerce Builder** is a powerful and flexible platform for creating custom online stores. It offers a range of features to help you build, customize, and manage your eCommerce website. The builder integrates seamlessly into existing systems and provides a user-friendly interface for store management.
+**MVB eCommerce Builder is a versatile tool for creating and customizing store templates and themes. It provides robust features for modifying and building online stores, and is designed to integrate with existing eCommerce systems, similar to how Shopify's builder works. MVB Builder is not a standalone system but a powerful tool for enhancing and customizing online store experiences.
+
 
 ## Features
 
